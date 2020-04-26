@@ -1,7 +1,7 @@
 
 ARMGNU ?= arm-none-eabi
 
-COPS = -Wall -O2 -nostdlib -nostartfiles -ffreestanding 
+COPS = -Wall -g -Og -nostdlib -nostartfiles -ffreestanding 
 
 all : armjtag.hex armjtag.bin fastblink.elf
 
